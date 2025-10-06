@@ -4,6 +4,7 @@ RAG test application as per https://python.langchain.com/docs/tutorials/rag/
 import getpass
 import logging
 import os
+import sys
 from typing import (
     List,
 )
@@ -114,6 +115,8 @@ def main():
 
     document_ids = vectorize(documents=chunks)
     logger.info("vectorised chunks with first three ids=%s", document_ids[:3])
+
+    sys.exit()
 
     # Compile application and test
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
