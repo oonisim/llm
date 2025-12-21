@@ -15,8 +15,7 @@ if not os.environ.get("OPENAI_API_KEY"):
 search = TavilySearch(max_results=2)
 tools = [search]
 
-model_with_tools = model.bind_tools(tools)
-query = "Search for the weather in SF"
-response = model_with_tools.invoke([{"role": "user", "content": query}])
+
+
 
 
