@@ -8,3 +8,6 @@
 /.idea/vcs.xml
 **/.ipynb_checkpoints
 /.idea/.name
+/agent/tutorial/langgraph/level_200/.ipynb_checkpoints/
+/agent/tutorial/langgraph/level_100/checkpoints.db-shm
+/agent/tutorial/langgraph/level_100/checkpoints.db
