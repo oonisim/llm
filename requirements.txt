@@ -19,3 +19,4 @@ textacy
 tldextract
 dateparser
 unidecode
+plotly
