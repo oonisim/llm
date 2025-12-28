@@ -15,3 +15,7 @@ spacy
 nltk
 pytextrank
 regex
+textacy
+tldextract
+dateparser
+unidecode
