@@ -20,7 +20,8 @@ import plotly.express as px
 from typing import Tuple, Optional, List
 
 
-def generate_sample_embeddings(n_samples: int = 500, n_dimensions: int = 768) -> np.ndarray:
+def generate_sample_embeddings(
+        n_samples: int = 500, n_dimensions: int = 768) -> np.ndarray:
     """
     Generate sample embedding vectors for demonstration.
 
