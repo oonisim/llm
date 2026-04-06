@@ -1,0 +1,222 @@
+{
+  "summary": {
+    "total": 300,
+    "gofmt_pass": 300,
+    "lark_pass": 179,
+    "both_pass": 179,
+    "false_negatives": 121,
+    "false_positives": 0
+  },
+  "false_negatives": [
+    {
+      "file": "cmd/compile/internal/walk/order.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'temp') at line 44, column 2."
+    },
+    {
+      "file": "cmd/go/internal/envcmd/env.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'base') at line 68, column 2."
+    },
+    {
+      "file": "crypto/internal/cryptotest/blockmode.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'bm') at line 142, column 3."
+    },
+    {
+      "file": "cmd/link/internal/ld/decodesym.go",
+      "error": "Unexpected token Token('FUNC', 'func') at line 36, column 1."
+    },
+    {
+      "file": "cmd/compile/internal/types2/selection.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'MethodVal') at line 53, column 2."
+    },
+    {
+      "file": "cmd/internal/goobj/objfile.go",
+      "error": "Unexpected token Token('TYPE', 'type') at line 169, column 1."
+    },
+    {
+      "file": "cmd/internal/objfile/objfile.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'Addr') at line 42, column 2."
+    },
+    {
+      "file": "cmd/go/internal/load/flag.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'BuildGcflags') at line 17, column 2."
+    },
+    {
+      "file": "cmd/internal/script/engine.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'Args') at line 103, column 2."
+    },
+    {
+      "file": "cmd/cgo/gcc.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'typedefList') at line 733, column 2."
+    },
+    {
+      "file": "runtime/mspanset.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'spineLen') at line 37, column 2."
+    },
+    {
+      "file": "internal/strconv/ftoa.go",
+      "error": "Unexpected token Token('IF', 'if') at line 284, column 2."
+    },
+    {
+      "file": "cmd/go/internal/modindex/read.go",
+      "error": "Unexpected token Token('VAR', 'var') at line 481, column 2."
+    },
+    {
+      "file": "runtime/rand.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'c') at line 177, column 3."
+    },
+    {
+      "file": "go/types/basic.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'Bool') at line 17, column 2."
+    },
+    {
+      "file": "sort/sort.go",
+      "error": "Unexpected token Token('CONST', 'const') at line 61, column 1."
+    },
+    {
+      "file": "os/user/lookup.go",
+      "error": "Unexpected token Token('RETURN', 'return') at line 27, column 2."
+    },
+    {
+      "file": "cmd/compile/internal/inline/inlheur/scoreadjusttyp_string.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'x1') at line 30, column 3."
+    },
+    {
+      "file": "internal/fuzz/fuzz.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'binPath') at line 169, column 2."
+    },
+    {
+      "file": "go/types/named.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'obj') at line 110, column 2."
+    },
+    {
+      "file": "cmd/compile/internal/inline/inlheur/funcpropbits_string.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'x1') at line 22, column 3."
+    },
+    {
+      "file": "cmd/link/internal/ld/stackcheck.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'height') at line 25, column 2."
+    },
+    {
+      "file": "encoding/json/v2/arshal_time.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'looseRFC3339') at line 269, column 2."
+    },
+    {
+      "file": "compress/flate/deflate.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'minMatchLength') at line 44, column 2."
+    },
+    {
+      "file": "internal/strconv/itoa.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'i') at line 95, column 2."
+    },
+    {
+      "file": "crypto/rc4/rc4.go",
+      "error": "Unexpected token Token('FOR', 'for') at line 74, column 2."
+    },
+    {
+      "file": "cmd/go/internal/cmdflag/flag.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'Name') at line 28, column 2."
+    },
+    {
+      "file": "runtime/runtime_noclearenv.go",
+      "error": "Unexpected token Token('FUNC', 'func') at line 12, column 1."
+    },
+    {
+      "file": "cmd/compile/internal/types2/check.go",
+      "error": "Unexpected token Token('CONST', 'const') at line 25, column 1."
+    },
+    {
+      "file": "syscall/ztypes_openbsd_mips64.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'x8') at line 7, column 20."
+    },
+    {
+      "file": "runtime/mkpreempt.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'name') at line 202, column 2."
+    },
+    {
+      "file": "index/suffixarray/suffixarray.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'x') at line 98, column 2."
+    },
+    {
+      "file": "cmd/go/internal/lockedfile/mutex.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'mu') at line 26, column 2."
+    },
+    {
+      "file": "cmd/link/internal/mips/l.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'MinAlign') at line 66, column 2."
+    },
+    {
+      "file": "crypto/internal/fips140/nistec/fiat/p224_fiat64.go",
+      "error": "Unexpected token Token('TYPE', 'type') at line 44, column 1."
+    },
+    {
+      "file": "cmd/internal/buildid/rewrite.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'r') at line 41, column 2."
+    },
+    {
+      "file": "internal/cpu/cpu_s390x.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'aes192') at line 23, column 2."
+    },
+    {
+      "file": "crypto/elliptic/elliptic.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'x1') at line 68, column 26."
+    },
+    {
+      "file": "internal/syscall/unix/net_darwin.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'x2') at line 14, column 18."
+    },
+    {
+      "file": "internal/runtime/atomic/atomic_andor_generic.go",
+      "error": "Unexpected token Token('FUNC', 'func') at line 21, column 1."
+    },
+    {
+      "file": "cmd/compile/internal/ssa/nilcheck.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'ClearPtr') at line 29, column 3."
+    },
+    {
+      "file": "runtime/synctest.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'now') at line 18, column 2."
+    },
+    {
+      "file": "net/port_unix.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'port') at line 35, column 3."
+    },
+    {
+      "file": "syscall/zerrors_linux_amd64.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'x5') at line 11, column 38."
+    },
+    {
+      "file": "cmd/link/internal/ld/go.go",
+      "error": "Unexpected token Token('IF', 'if') at line 397, column 2."
+    },
+    {
+      "file": "cmd/trace/gstate.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'label') at line 31, column 2."
+    },
+    {
+      "file": "cmd/link/internal/mips64/l.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'minAlign') at line 66, column 2."
+    },
+    {
+      "file": "cmd/go/internal/load/test.go",
+      "error": "Unexpected token Token('IF', 'if') at line 311, column 2."
+    },
+    {
+      "file": "math/big/internal/asmgen/func.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'outputs') at line 22, column 2."
+    },
+    {
+      "file": "crypto/internal/fips140/aes/gcm/gcm_s390x.go",
+      "error": "Unexpected token Token('IDENTIFIER', 'xf') at line 71, column 23."
+    }
+  ],
+  "failure_patterns": {
+    "Unexpected token Token('IDENTIFIER') at line X, col Y.": 92,
+    "Unexpected token Token('IF') at line X, col Y.": 8,
+    "Unexpected token Token('FUNC') at line X, col Y.": 6,
+    "Unexpected token Token('VAR') at line X, col Y.": 4,
+    "Unexpected token Token('CONST') at line X, col Y.": 3,
+    "Unexpected token Token('RETURN') at line X, col Y.": 3,
+    "Unexpected token Token('FOR') at line X, col Y.": 3,
+    "Unexpected token Token('TYPE') at line X, col Y.": 2
+  }
+}
